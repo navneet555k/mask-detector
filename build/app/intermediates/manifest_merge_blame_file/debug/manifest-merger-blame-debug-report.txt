@@ -1,0 +1,224 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.madhank93.facemaskdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Rattlesnakes\mask-detector\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Rattlesnakes\mask-detector\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->[:camera] C:\Users\Rattlesnakes\mask-detector\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
+17-->[:camera] C:\Users\Rattlesnakes\mask-detector\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->[:camera] C:\Users\Rattlesnakes\mask-detector\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
+18-->[:camera] C:\Users\Rattlesnakes\mask-detector\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:24:5-79
+19-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:24:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+20-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+23    <!--
+24 io.flutter.app.FlutterApplication is an android.app.Application that
+25         calls FlutterMain.startInitialization(this); in its onCreate method.
+26         In most cases you can leave this as-is, but you if you want to provide
+27         additional functionality it is fine to subclass or reimplement
+28         FlutterApplication and put your custom class here.
+29    -->
+30    <application
+30-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:8:5-29:19
+31        android:name="io.flutter.app.FlutterApplication"
+31-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:9:9-57
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\765d948781557ca60ad60520b9d583b2\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:11:9-43
+35        android:label="Face mask detection" >
+35-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:10:9-44
+36        <activity
+36-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:12:9-23:20
+37            android:name="io.madhank93.facemaskdetection.MainActivity"
+37-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:13:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:16:13-163
+39            android:hardwareAccelerated="true"
+39-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:17:13-47
+40            android:launchMode="singleTop"
+40-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:14:13-43
+41            android:theme="@style/LaunchTheme"
+41-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:15:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:18:13-55
+43            <intent-filter>
+43-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:19:13-22:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:20:17-68
+44-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:20:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:21:17-76
+46-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:21:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:26:9-28:33
+54            android:name="flutterEmbedding"
+54-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:27:13-44
+55            android:value="2" />
+55-->C:\Users\Rattlesnakes\mask-detector\android\app\src\main\AndroidManifest.xml:28:13-30
+56
+57        <provider
+57-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+58            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+58-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+59            android:authorities="io.madhank93.facemaskdetection.flutter.image_provider"
+59-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+60            android:exported="false"
+60-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+61            android:grantUriPermissions="true" >
+61-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+62            <meta-data
+62-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+64                android:resource="@xml/flutter_image_picker_file_paths" />
+64-->[:image_picker] C:\Users\Rattlesnakes\mask-detector\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+65        </provider>
+66
+67        <receiver
+67-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+68            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+68-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+69            android:enabled="true"
+69-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+70            android:exported="false" >
+70-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+71        </receiver>
+72        <receiver
+72-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+73            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+73-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+74            android:enabled="true"
+74-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+75            android:exported="true"
+75-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+76            android:permission="android.permission.INSTALL_PACKAGES" >
+76-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+77            <intent-filter>
+77-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+78                <action android:name="com.android.vending.INSTALL_REFERRER" />
+78-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+78-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+79            </intent-filter>
+80        </receiver>
+81
+82        <service
+82-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+83            android:name="com.google.android.gms.measurement.AppMeasurementService"
+83-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+84            android:enabled="true"
+84-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+85            android:exported="false" />
+85-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+86        <service
+86-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+87            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+87-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+88            android:enabled="true"
+88-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+90            android:permission="android.permission.BIND_JOB_SERVICE" />
+90-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\a24685140379739bfb764ff9dd8d5ad3\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+91        <service
+91-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\2de415cc20ee9d52d221b3ba8a7be1c3\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\2de415cc20ee9d52d221b3ba8a7be1c3\play-services-measurement-api-17.2.2\AndroidManifest.xml:28:13-84
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\d1926e974c50c135a7dd5e3717990afa\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+94            android:exported="false" >
+94-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\2de415cc20ee9d52d221b3ba8a7be1c3\play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+95            <meta-data
+95-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\2de415cc20ee9d52d221b3ba8a7be1c3\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+96                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+96-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\2de415cc20ee9d52d221b3ba8a7be1c3\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\2de415cc20ee9d52d221b3ba8a7be1c3\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+99                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+99-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+101        </service>
+102
+103        <receiver
+103-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+104            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+104-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+105            android:exported="true"
+105-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+106            android:permission="com.google.android.c2dm.permission.SEND" >
+106-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+107            <intent-filter>
+107-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+108                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\cb0ec7d86949087c2d713bd548c7bf46\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+109            </intent-filter>
+110        </receiver>
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\d1926e974c50c135a7dd5e3717990afa\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\d1926e974c50c135a7dd5e3717990afa\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+114            android:authorities="io.madhank93.facemaskdetection.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\d1926e974c50c135a7dd5e3717990afa\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\d1926e974c50c135a7dd5e3717990afa\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\d1926e974c50c135a7dd5e3717990afa\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\12172bd92333b24a6ca38dc2aa663cea\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\12172bd92333b24a6ca38dc2aa663cea\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\12172bd92333b24a6ca38dc2aa663cea\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\12172bd92333b24a6ca38dc2aa663cea\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\618de7651c465ca24c23ea0d69e93438\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\618de7651c465ca24c23ea0d69e93438\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rattlesnakes\.gradle\caches\transforms-2\files-2.1\618de7651c465ca24c23ea0d69e93438\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+126    </application>
+127
+128</manifest>
